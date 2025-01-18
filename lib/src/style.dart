@@ -5,11 +5,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_class_parser/flutter_class_parser.dart';
+import 'package:flutter/foundation.dart';
 import 'package:morphable_shape/morphable_shape.dart';
 
 import 'dynamic_ui_classes/dynamic_text_style.dart';
 import 'dynamic_ui_classes/smooth_matrix4.dart';
 import 'serialization/parse_json.dart';
+
 
 class Style {
   bool? visible;
